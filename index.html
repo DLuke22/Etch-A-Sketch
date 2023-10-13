@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Etch-A-Sketch</h1>
+        <h3>Enter a grid size:</h3>
+      <div class="gridInput">
+        <input id="screenSize" type="number" placeholder="Size of grid" value="16" onchange="changeScreenSize(this.value)">
+      </div>
+    </div>
+    <div class="outer-container">
+      <div class="innerContainer"></div>
+      <div class="wheel-container">
+        <div class="left-wheel"></div>
+        <div class="right-wheel"></div>
+      </div>
+    </div>
+      <div class="btn-container">
+      <button id="play" onclick="changeScreenSize()">Play</button>
+      <button id="reset" onclick="clearScreen()">Reset</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

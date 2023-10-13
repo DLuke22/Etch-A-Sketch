@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.innerContainer {
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightgrey;
+    display: grid;
+}
+
+.outer-container {
+    height: 750px;
+    width: 750px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: red;
+    flex-direction: column;
+
+}
+
+.wheel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+.left-wheel {
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.right-wheel {
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.gridInput {
+    margin-bottom: 10px;
+}
+
+#play {
+    margin-right: 50px;
+    margin-top: 15px;
+    background-color: green;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+}
+
+#reset {
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: red;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+}
+
+.grid-rows {
+    border: 1px solid black;
+}
+
+.grid-squaresR {
+    border: 1px solid black;
+}
